@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Hotline</title>
+    <!-- daisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="w-full h-24 bg-white flex justify-between items-center px-4 md:px-8">
+      <div class="flex items-center gap-2">
+        <img src="./assets/logo.png" alt="" class="w-14 h-14">
+        <p class="text-xl font-bold text-green-800">Emergency <br> Service</p>
+      </div>
+      <div class="w-auto flex items-center gap-2 md:gap-4">
+          <!-- heart count -->
+          <div class="w-28 h-14 rounded-4xl bg-[#41ff6b1a] rounded-3xl flex items-center pl-8 gap-1">
+            <span id="total-hearts" class="font-bold">0</span>
+            <img src="./assets/heart.png" alt="" class="w-8 h-8">
+          </div>
+          <!-- coin count -->
+          <div class="w-28 h-14 bg-[#41ff6b1a] rounded-4xl flex items-center pl-6 gap-2">
+            <span id="coin-count" class="font-bold">100</span>
+            <img src="./assets/coin.png" alt="" class="w-8 h-8">
+          </div>
+          <!-- copy count -->
+           <button class="border-2 rounded-4xl w-32 h-14 bg-[#00A63E] text-white">
+            <span id="copy-count">2</span> Copy
+           </button>
+      </div>
+    </nav>
+    <section class="w-full h-56 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-4 md:py-8 text-white">
+      <div class="mx-auto text-center">
+       <div class="flex justify-center">
+        <img src="./assets/logo-dark.png" alt="" class="w-20 h-20">
+       </div>
+        <h1 class="text-2xl md:text-3xl font-semibold mb-4">Emergency Service Directory</h1>
+        <p class="text-base">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+      </div>
+    </section>
+  </body>
+</html>
